@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python source code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Glass+Antiqua&family=Lexend:wght@100..900&family=Prata&family=Six+Caps&family=Tulpen+One&family=Zen+Dots&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #131313;
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        div {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        a {
+            color: #f5eee6;
+            text-decoration: none;
+            font-size: 40px;
+            font-family: "Bodoni Moda", serif;
+            position: relative;
+            display: inline-block;
+            transition: background 0.5s ease;
+        }
+        a:hover {
+            background-color: #202020;
+            transition: background 0.3s ease;
+        }
+        a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 3px;
+            width: 0;
+            height: 2px;
+            background: #f5eee6;
+            transition: width 0.5s ease;
+        }
+        a:hover::after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="https://github.com/reinisvaravs/python/blob/main/dice_roll.py" target="_blank">Dice Roll</a>
+        <a href="https://github.com/reinisvaravs/python/blob/main/number_guess.py" target="_blank">Guess the Number</a>
+        <a href="https://github.com/reinisvaravs/python/blob/main/rock_paper_scissor.py" target="_blank">Rock Paper Scissors</a>
+    </div>
+</body>
+</html>
